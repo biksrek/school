@@ -1456,4 +1456,31 @@ h1, h2, h3, h4, .section-heading, .hero-title {
         max-width: 28px !important;
         max-height: 28px !important;
     }
+
+    /* Contact section mobile fix */
+    .contact-card-wrapper .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info-panel {
+        padding: 36px 24px;
+    }
+
+    .contact-form-panel {
+        padding: 36px 24px;
+    }
+
+    .panel-title {
+        font-size: 1.8rem;
+    }
+
+    .detail-text span {
+        font-size: 0.9rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .panel-desc {
+        font-size: 0.9rem;
+    }
 }
